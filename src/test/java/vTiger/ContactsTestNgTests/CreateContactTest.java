@@ -14,7 +14,7 @@ import vTiger.ObjectRepository.OrganizationsInfoPage;
 //@Listeners(vTiger.GenericLibrary.ListenerImplementationLibrary.class)
 public class CreateContactTest extends BaseClass{
 
-	@Test//(groups = "smokeSuite")
+	@Test(groups =  { "smokeSuite" , "regressionSuite"})
 	public void createContactTest() throws IOException 
 	{
 		//read data from excel
