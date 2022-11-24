@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="vTiger.OrganizationsTestNGTests.CreateMultipleOrganizationsWithIndustryTest">
+        <methods>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="bsConfig"/>
+          <include name="createMultipleOrgTest" invocation-numbers="2 4"/>
+          <include name="asConfig"/>
+          <include name="amConfig"/>
+          <include name="acConfig"/>
+        </methods>
+      </class> <!-- vTiger.OrganizationsTestNGTests.CreateMultipleOrganizationsWithIndustryTest -->
+      <class name="vTiger.ContactsTestNgTests.CreateContactWithOrganizationTest">
+        <methods>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+          <include name="amConfig"/>
+          <include name="createContactWithOrgTest"/>
+          <include name="acConfig"/>
+        </methods>
+      </class> <!-- vTiger.ContactsTestNgTests.CreateContactWithOrganizationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
